@@ -11,7 +11,7 @@ export function sleep(ms: number) {
 
 export function getBrowserName() {
   const userAgent = navigator.userAgent;
-  if (userAgent.indexOf('Chrome') > -1 && userAgent.indexOf('Edge') === -1) {
+  if (userAgent.indexOf('Chrome') > -1 && userAgent.indexOf('Edg') === -1) {
     return 'Chrome';
   }
   if (userAgent.indexOf('Firefox') > -1) {
