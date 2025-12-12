@@ -20,7 +20,7 @@ export function getBrowserName() {
   if (userAgent.indexOf('Safari') > -1 && userAgent.indexOf('Chrome') === -1) {
     return 'Safari';
   }
-  if (userAgent.indexOf('Edge') > -1) {
+  if (userAgent.indexOf('Edg') > -1) {
     return 'Edge';
   }
   if (userAgent.indexOf('MSIE') > -1 || userAgent.indexOf('Trident') > -1) {
